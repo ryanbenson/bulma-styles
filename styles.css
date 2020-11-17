@@ -7702,8 +7702,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background-color: #fafafa;
   padding: 3rem 1.5rem 6rem; }
 
-a.button.is-primary,
-button.is-primary {
+.button.is-primary {
   min-width: 100px;
   padding: 16px; }
 
@@ -7733,5 +7732,5 @@ button.is-primary {
   @media screen and (max-width: 768px) {
     .welcome__message h2, .welcome__message h5, .welcome__message p {
       color: white; }
-    .welcome__message button {
+    .welcome__message .button {
       width: 100%; } }
