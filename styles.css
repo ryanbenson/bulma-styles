@@ -7715,6 +7715,9 @@ button.is-primary {
   background-repeat: no-repeat;
   background-size: cover; }
 
+.bg-image--center {
+  background-position: center center; }
+
 @media screen and (max-width: 768px) {
   .is-mobile-full-background {
     position: absolute;
@@ -7727,3 +7730,8 @@ button.is-primary {
   padding: 0 10vw; }
   .welcome__message h2, .welcome__message h5, .welcome__message p {
     padding-bottom: 16px; }
+  @media screen and (max-width: 768px) {
+    .welcome__message h2, .welcome__message h5, .welcome__message p {
+      color: white; }
+    .welcome__message button {
+      width: 100%; } }
