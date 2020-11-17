@@ -13,7 +13,7 @@ button.is-primary {
 
 .welcome__message {
   padding: 0 10vw; }
-  .welcome__message h5, .welcome__message p {
+  .welcome__message h2, .welcome__message h5, .welcome__message p {
     padding-bottom: 16px; }
 
 /*! bulma.io v0.9.1 | MIT License | github.com/jgthms/bulma */
